@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel='stylesheet' type='text/css'  href='style.css'>
+    <title>Piyush</title>
+</head>
+<body id="s1">
+    <div class="head" id="headid">
+     <h1>Piyush</h1>
+    </div>
+
+    <div class="options"id="op">
+        <a href="#port">Portfolio</a> <a href="aboutme.html">About me </a> <a href ="#con">Contact me</a>
+    </div>
+    <div class="ph"id="ph">
+    <h1>Portfolio</h1>
+</div>
+    <div class="header"id="myHeader">
+        <a href="#solar">Solar system</a>
+        <a href="#sts">Save the sky</a>
+        <a href="#ab">Angry birds</a>
+        <a href="#crg">Car racing game</a>
+        <a href ="#rw">React native web</a>
+        <a href ="#gp">Google page replica</a>
+        <a href="#am">DJ mixer app</a>
+    </div>
+
+   <div class="portfolio"id="port">
+      
+
+<div class="solar" id="solar">
+       <h2>Solar system</h2><br>
+       <h4>JavaScript</h4><br>
+       <img src="solar systemGame.jpg"alt=""width="600px"height="300px"><br>
+       <p>This is my solar system project
+           <br>
+           In this project i created an alternate<br>
+           universe in which the sun expands every 10 frames.
+           <br> and destroyes the planet one by one.
+
+       </p>
+    </div>
+ <div class="sts" id="sts">
+     <h2>Save the sky</h2>
+     <h4>JavaScript</h4>
+       <img src="saveTheSky.jpg"alt=""width="600px"height="300px"><br>
+       <p>This is a game called save the sky 
+           <br>in which there are flying dragons roaming around in<br>
+           the sky.and we have to save the sky by killing those dragons.
+       </p>
+    </div>
+<div class="ab"id="ab">
+       <h2>Angry birds</h2>
+       <h4>JavaScript</h4>
+       <img src="angrybirds.jpg"alt=""width="600px"height="300px">
+       <p>This is my angry birds single <br>
+       level replica.i created this using classes and physics engine.</p>
+    </div>
+    <div class="crg"id="crg">
+       <h2>Car racing game</h2>
+       <h4>JavaScript</h4>
+       <img src="carRacing.jpg"alt=""width="600"height="300">
+       <p>This is my car racing mutiplayer game<br>
+       this game was done using a realtime database</p>
+    </div>
+    <div class="rw"id="rw">
+        <h2>JSX and react native web</h2>
+        <h3>HTML</h3>
+       <img src="jsxweb.png"alt=""width="600"height="300px">
+       <p>This is a website which created using HTML<br>
+       about Jsx and react native.</p>
+    </div>
+      <div class="gp"id="gp">
+       <h2>Google page replica</h2>
+       <h3>HTML</h3>
+       <img src="gpimg.png"alt=""width="600"height="300px">
+       <p>This is my google page <br>replica i did this using Html</p>
+    </div>
+         <div class="dm"id="dm">
+       <h2>Dj Mixer app</h2>
+       <h3>JSX</h3>
+       <img src="Dj.png"alt=""width="600px"height="300px">
+       <p>This is the first android/ios app i ever created.<br>
+   the is a DJ mixer app in which there are multiple  instruments to play with. </p>
+</div>
+
+       
+   </div>
+   <div class="am" id="am">
+       <h1>About me</h1>
+   </div>
+
+   <div class="contact" id="con">
+       <h1>Contact me</h1>
+ <br>
+ <a href="https://www.instagram.com/dpiyushraj/">Instagram</a>
+ <a href="https://whatsapp.com">no. 6364012438</a>
+ <a href="https://gmail.com">dpiyushraj007@gmail.com</a>
+   </div>
+
+   <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>
+</html>

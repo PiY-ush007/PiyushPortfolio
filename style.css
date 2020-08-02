@@ -1,0 +1,230 @@
+html{
+  
+ scroll-behavior: smooth;
+}
+
+
+#s1{
+ background-color: azure;
+
+}
+body::-webkit-scrollbar {
+  overflow: hidden;
+  display:none;
+
+}
+
+
+.head{
+  background-image: linear-gradient( to bottom right,grey,black);
+  padding-bottom: 100px;
+  padding-left:10px;
+   padding-top: 5em;
+   padding-right: 10px;
+
+}
+.head h1{
+  color:white;
+  font-size: 65px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.options{
+  display: flex;
+  justify-content: space-around;
+margin-bottom:40px;
+ 
+  
+
+}
+.options a{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+  margin-top: 30px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica;
+}
+.options a:hover{
+  box-shadow: 0 4px 8px 0 rgb(150, 150, 150), 0 6px 20px 0 rgb(150, 150, 150);
+  transition: box-shadow 0.3s;
+ 
+ 
+}
+.portfolio{
+  margin-top: 100px;
+ 
+  
+
+}
+.portfolio p{
+  font-family:Arial, Helvetica, sans-serif ;
+  text-align: center;
+}
+.portfolio h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+ 
+}
+.portfolio img{
+  border: 20px solid rgb(150, 150, 150);
+ display:flex;
+ justify-content: space-evenly;
+ margin-left: 275px;
+
+ border-radius: 75px;
+ 
+}
+.portfolio h4{
+  text-align: center;
+}
+
+
+
+
+
+.portfolio .solar{
+ 
+  border-radius: 100px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgb(150, 150, 150), 0 6px 20px 0 rgb(150, 150, 150);
+  margin-top:100px;
+}
+.portfolio .sts {
+  
+  border-radius: 100px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgb(150, 150, 150), 0 6px 20px 0 rgb(150, 150, 150);
+  margin-top:100px;
+} 
+.portfolio .ab {
+  
+  border-radius: 100px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgb(150, 150, 150), 0 6px 20px 0 rgb(150, 150, 150);
+  margin-top:100px;
+}
+.portfolio .crg {
+ 
+  border-radius: 100px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgb(150, 150, 150), 0 6px 20px 0 rgb(150, 150, 150);
+  margin-top:100px;
+}
+.portfolio .rw {
+ 
+  border-radius: 100px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgb(150, 150, 150), 0 6px 20px 0 rgb(150, 150, 150);
+  margin-top:100px;
+}
+.portfolio .gp{
+ 
+  border-radius: 100px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgb(150, 150, 150), 0 6px 20px 0 rgb(150, 150, 150);
+  margin-top:100px;
+}
+.portfolio .dm{
+
+  border-radius: 100px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgb(150, 150, 150), 0 6px 20px 0 rgb(150, 150, 150);
+  margin-top:100px;
+}
+.portfolio h3{
+  text-align: center;
+}
+.header{
+  display:flex;
+  justify-content:space-evenly;
+ 
+  font-size:18px;
+  background-color:white;
+  padding-bottom:40px;
+  padding-top:40px;
+  box-shadow: 0 4px 8px 0 rgb(150, 150, 150), 0 6px 20px 0 rgb(150, 150, 150);
+
+  
+}
+.header a{
+  color:black;  
+  text-decoration: none;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header a:hover{
+  color:blue;
+}
+.sticky{
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.ph{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top:75px;
+}
+
+.sticky + .portfolio {
+  padding-top: 30x;
+}
+.contact{
+  background-color: black;
+
+}
+.contact h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-size: 25px;
+}
+.contact a{
+  display: flex;
+  justify-content: space-evenly;
+  color:white;
+  font-size: 15px;
+  text-decoration: none;
+  margin-top:30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact a:hover{
+  color:greenyellow;
+}
+.himg h1{
+text-align: center;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 65px;
+
+}
+.himg{
+ background-color: black;
+  padding-bottom: 100px;
+  text-align: center;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.himg img {
+  border-radius: 40px;
+ 
+}
+.himg h2{
+border: 3px solid white;
+margin-left: 300px;
+margin-right: 300px;
+
+
+}
+
